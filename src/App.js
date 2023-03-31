@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App" style={{paddingTop:"60px",backgroundColor:"black",paddingBottom:"15%"}}>
 
-      <button onClick={fetchDetails} style={{background: "linear-gradient(to right, gray,black)",color:"white",fontWeight:"600",width:"12%",height:"35px",borderRadius:"3px",border:"1px solid white",position:"relative",left:"40.5%"}}>DISPLAY RANDOM USER </button>
+      <button className="button" onClick={fetchDetails} style={{background: "linear-gradient(to right, gray,black)",color:"white",fontWeight:"600",padding:"10px",fontSize:"15px", borderRadius:"3px",border:"1px solid white",position:"relative",left:"40%"}}>DISPLAY RANDOM USER </button>
          <div className="profile-img">
          <img className="img" src={details.picture?.large} alt="profile-pictures" style={{borderRadius:"50%",position:"relative",left:"42%",top:"50px", border: "5px solid white"}}/>
          </div>
