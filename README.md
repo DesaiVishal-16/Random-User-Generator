@@ -1,4 +1,4 @@
-# Display Random User
+# Random User Generator
 
 [Live Link](https://random-user16.netlify.app)
 
